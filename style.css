@@ -133,6 +133,11 @@ section {
   transition: 0.7s ease;
 }
 
+.cards {
+
+opacity: 0.1;
+}
+
 .card:hover {
   transform: scale(1.1);
 }
