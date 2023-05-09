@@ -121,6 +121,7 @@ section {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
 
 .card {
@@ -135,7 +136,7 @@ section {
 
 .cards {
 
-opacity: 0.1;
+  background-color: transparent;
 }
 
 .card:hover {
