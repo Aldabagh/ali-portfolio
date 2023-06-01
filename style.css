@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background: none;
 }
 
 header {
@@ -17,6 +18,28 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1px 150px;
+}
+
+.footer {
+  background-color: rgb(69, 71, 73);
+  color: #fff;
+  padding: 0.75em;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color:rgb(8, 135, 247) ;
+}
+
+.footer .social-icons a {
+  color: rgb(8, 135, 247);
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
 }
 
 .logo img {
@@ -50,7 +73,7 @@ section {
 
 .main {
   width: 100%;
-  height: auto;
+  height: 800px;
   display: flex;
   align-items: center;
   background: url(image/Ali2.jpg) no-repeat;
@@ -125,20 +148,22 @@ section {
 }
 
 .card {
-  background-color: rgb(237, 243, 246);
+  background-color: aliceblue;
+  border: 1px solid #fff;
+  min-height: 14em;
   width: 15em;
-  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  overflow: hidden;
   border-radius: 10px;
-  padding: 20px;
-  margin: 15px;
-  transition: 0.7s ease;
+  margin: 20px;
+  transition: 0.9s ease;
 }
 
 .cards {
 
   background-color: transparent;
+  padding: 7px;
+  
 }
-
 .card:hover {
   transform: scale(1.1);
 }
@@ -160,8 +185,9 @@ section {
 }
 
 .projects {
-  background-color: rgb(6, 6, 6);
+  background-color: rgb(88, 85, 85);
   opacity: 1;
+  padding-top: 30px;
 }
 
 .project .content {
@@ -176,10 +202,10 @@ section {
   overflow: hidden;
   border-radius: 10px;
   margin: 20px;
-  transition: 0.9s ease;
+  transition: 1s ease;
 }
 .project-card:hover {
-  transform: scale(1.6);
+  transform: scale(1.5);
 }
 .project-image img {
   width: 100%;
